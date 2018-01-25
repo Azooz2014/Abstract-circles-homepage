@@ -1,0 +1,50 @@
+/**!
+ * font-family: $fontType
+ * font-weight: 700
+ * color: white
+ */
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-color: #91D2E5; }
+
+text {
+  font-family: "Open sans";
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  font-size: 5em;
+  fill: #fff; }
+
+a {
+  font-family: "Open sans";
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2.3em;
+  font-family: "Viga"; }
+
+#main-circle {
+  margin-left: 30px;
+  margin-top: 30px;
+  filter: drop-shadow(50px -1px 0px #5DC4FF) drop-shadow(60px -8px 0px #E1B1E5); }
+
+.menu {
+  float: right;
+  list-style: none;
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  transform: translate(12%, -80%);
+  text-align: right;
+  line-height: 2.1em; }
+
+/**!
+ * #gallery, #contact
+ * position: relative
+ * transform: translate(-25%, 0%) */
+
+/*# sourceMappingURL=style.css.map */
